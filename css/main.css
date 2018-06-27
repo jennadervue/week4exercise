@@ -1,0 +1,48 @@
+body {
+	text-align: center;
+}
+
+.box {
+	display: inline-block;
+	height: 200px;
+	width: 150px;
+}
+
+.blue {
+	background-color: #4564d6;
+}
+
+.bluegreen {
+	background-color: #08c3a1;
+}
+
+.green {
+	background-color: green;
+}
+
+.greenyellow {
+	background-color: #8bd45d;
+}
+
+
+.container {
+	height: 200px;
+	width: 200px;
+	background-color: gray;
+	
+}
+
+@media (max-width: 600px) {
+	.bluegreen, .green {
+		display: none;
+	}
+/*	.blue, .greenyellow {
+		display: initial;
+	}*/
+}
+
+@media (min-width: 1000px) {
+	.box {
+		width: 100%;
+	}
+}
